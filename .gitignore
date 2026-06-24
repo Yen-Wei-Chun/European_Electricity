@@ -1,0 +1,9 @@
+env
+*.pyc
+__pycache__/
+ 
+# Data folder
+data/
+ 
+# Project framework doc
+electricity_project_framework.docx
