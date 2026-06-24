@@ -70,8 +70,8 @@ GDA_European_Electricity/
 
 ```bash
 # 1. Clone and create virtual environment
-git clone https://github.com/[your-username]/GDA_European_Electricity.git
-cd GDA_European_Electricity
+git clone https://github.com/Yen-Wei-Chun/European_Electricity.git
+cd European_Electricity
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
@@ -131,7 +131,7 @@ gCO₂/kWh = Σ(MW_by_source × IPCC_factor) / Total_MW
 
 Derived figures are validated against Electricity Maps for a 90-day overlapping window. Correlation exceeds 0.94 across all countries. DE_LU shows elevated MAE (109.6 gCO₂/kWh) due to Germany's high lignite share — actual plant emissions exceed the IPCC coal median — and is documented as a known methodological divergence, not a data error.
 
-Full validation results and limitations are in [`docs/Methodology_Note.pdf`](docs/Methodology_Note.pdf).
+Full validation results and limitations are in [`docs/Methodology_Note.pdf`].
 
 ---
 
