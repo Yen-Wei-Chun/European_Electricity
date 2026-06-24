@@ -137,11 +137,13 @@ Full validation results and limitations are in [`docs/Methodology_Note.pdf`].
 
 ## Known data quirks
 
+## Known data quirks
+
+- **Germany**: No nuclear in DE_LU data — Germany shut down all nuclear plants in April 2023. Absence is expected, not a gap.
 - **Germany**: Use bidding zone `DE_LU` (Germany + Luxembourg), not `DE`
-- **Spain**: Reports solar PV (B16) and solar thermal (B17) separately — both mapped to `solar_pv` and `solar_thermal` in the generation table
-- **France**: Nuclear occasionally reported as an aggregated total — normal ENTSO-E behaviour
-- **Italy**: Generation-based carbon intensity systematically overstates consumption-based figures by up to 175 gCO₂/kWh due to untracked low-carbon imports (French nuclear, Swiss hydro). Documented in the methodology note.
-- **All countries**: `mw = NULL` in the generation table means a reported gap, not zero generation
+- **Italy**: Geothermal was initially mapped to `other` (300 gCO₂/kWh) instead of the correct factor (38 gCO₂/kWh) — corrected after validation and full re-ingest
+- **UK**: Excluded from dispatch ranking due to severely limited ENTSO-E coverage post-Brexit. Retained for cross-border flow analysis only.
+- **All countries**: `mw = NULL` means a reported gap, not zero generation
 
 ---
 
