@@ -7,7 +7,7 @@ A data pipeline and dispatch framework that identifies optimal scheduling window
 **Countries**: Germany · France · Spain · Italy  
 **Data sources**: ENTSO-E (primary) + Electricity Maps (validation layer)  
 **Stack**: Python · PostgreSQL · Tableau  
-**Methodology**: Full write-up in [`docs/Methodology_Note.pdf`](docs/Methodology_Note.pdf)
+**Methodology**: Full write-up in [`docs/Methodology_Note.pdf`]
 
 ---
 

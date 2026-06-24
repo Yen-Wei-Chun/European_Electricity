@@ -1,9 +1,10 @@
 env
 *.pyc
 __pycache__/
+.vscode/
  
 # Data folder
 data/
  
 # Project framework doc
-electricity_project_framework.docx
+electricity_project_framework.docx*.docx
