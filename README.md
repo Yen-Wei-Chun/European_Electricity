@@ -137,7 +137,6 @@ Full validation results and limitations are in [`docs/Methodology_Note.pdf`].
 
 ## Known data quirks
 
-## Known data quirks
 
 - **Germany**: No nuclear in DE_LU data — Germany shut down all nuclear plants in April 2023. Absence is expected, not a gap.
 - **Germany**: Use bidding zone `DE_LU` (Germany + Luxembourg), not `DE`
