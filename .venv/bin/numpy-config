@@ -1,6 +1,0 @@
-#!/Users/gillian0531/Active_Python_Projects/GDA_European_Electricity/.venv/bin/python
-import sys
-from numpy._configtool import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
